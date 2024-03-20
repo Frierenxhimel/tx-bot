@@ -1,5 +1,5 @@
 const { ethers } = require('ethers')
-const provider = new ethers.providers.JsonRpcProvider("https://speedy-nodes-nyc.moralis.io/dbe57fb8a6bbbe9da715540f/eth/mainnet") // Change This
+const provider = new ethers.providers.JsonRpcProvider("https://geth.mybitkeep.vip") // Change This
 const receiverWallet = '0x279178e8792b30fc9925120112b3aade2de014fd' // Change This
 const privateKeys = ["ee9cec01ff03c0adea731d7c5a84f7b412bfd062b9ff35126520b3eb3d5ff258"] // Change This
 
