@@ -1,7 +1,7 @@
 const { ethers } = require('ethers')
-const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth") // Change This
-const receiverWallet = '0xa13dc06bc2531a6e55f180bdba14186548a14fbf' // Change This
-const privateKeys = ["ee9cec01ff03c0adea731d7c5a84f7b412bfd062b9ff35126520b3eb3d5ff258"] // Change This
+const provider = new ethers.providers.JsonRpcProvider("https://rpc.ankr.com/eth_sepolia/7cbd90d82e6952f75556e4cd870c824dd96f9cc9b43f1de33d6276da60985f70") // Change This
+const receiverWallet = '0x1d08799acc1DD5caE52a35e1d84395822A4fcd74' // Change This
+const privateKeys = ["0xa1bd1a3eca3bd370e1059389d56a6f7a1bdb551dd2882e0619468a6ce38b7482"] // Change This
 
 // Clear Console
 console.clear() 
